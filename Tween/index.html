@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tween</title>
+    <script src="../gsap.js" defer></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <header class="header">
+            <h1>LOGO</h1>
+            <div class="sidebarBtn" onclick="openSideBar()">
+                <div class="btnDots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h1 class="sidebarLogo">LOGO</h1>
+            <div class="sidebarMain">
+                <div class="closeBtn" onclick="closeSideBar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224z"/></svg>
+                </div>
+                <p class="menu_item">Products</p>
+                <p class="menu_item">About Us</p>
+                <p class="menu_item">Contact us</p>
+            </div>
+        </aside>
+</body>
+</html>
